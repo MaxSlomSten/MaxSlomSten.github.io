@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@400;600&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url(https://static.vecteezy.com/system/resources/previews/000/125/533/original/vector-grunge-texture.jpg);
+    padding: 70px 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.container{
+    width: 960px;
+    min-height: 700px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.header{
+    display: flex;
+    height: 250px;
+}
+
+.title-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 80%;
+    height: 100%;
+    font-size: 50px;
+    background: url(https://images.unsplash.com/photo-1628615315488-14ec7d02daaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80) no-repeat center center / cover;
+    color: #fff;
+
+}
+.userpic{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    }
+
+.nav ul{
+
+        display: flex;
+        background: rgb(219, 216, 216);
+        padding: 0;
+        margin: 10px 0;
+       
+ }
+
+.nav li{
+    list-style-type: none;
+
+}
+.nav li a{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid rgb(161, 157, 157);
+    transition: background 1s ease;
+
+}
+
+.nav li a:hover{
+    background: rgb(175, 170, 170);
+
+}
+
+.content-wrapper{
+    display: flex;
+}
+
+.content{
+    
+    width: 70%;
+    padding: 20px;
+  
+}
+
+.content p {
+    line-height: 25px;
+}
+.sidebar{
+    padding: 20px;
+    width: 30%;
+ 
+}
+
+.skills li {
+    padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+
+}
+
+.skills li:hover{
+    transform: translateX(10px);
+
+}
+
+.footer{
+   
+background-color: #2e34e5;
+position: fixed;
+right: 0;
+bottom: 0;
+text-align: center;
+width: 99%; 
+font-size: 19px;
+font-weight: bold;
+color: #fafaff; 
+}
+
+.button-link{
+    color: #2e34e5;
+    font-weight: bold;
+}
+
