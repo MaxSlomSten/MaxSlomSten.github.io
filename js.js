@@ -1,5 +1,5 @@
 const button = document.querySelector('button');
 
 button.addEventListener('click', function() {
-	alert('Ты крут(а)!!! Улыбнись и будь счастлив&#128526;))')
+	alert('Ты крут(а)!!! Улыбнись и будь счастлив(а)😉')
 })
